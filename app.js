@@ -39,6 +39,8 @@ function calculateTip() {
   //Hiển thị vùng div tiền tip
   getEle("totalTip").style.display = "block";
   getEle("tips").innerHTML = tongTip;
+  // ban đầu tips là 0 nên khi ra đc tongTip là bnh sẽ gán hiện ra
+  // giá trị bằng innerHTML
 }
 
 //Hiển thị vùng div tiền tip
