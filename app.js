@@ -10,7 +10,7 @@ function calculateTip() {
 
   //Validation
   if (tongBill === "" || haiLongVaTip == 0) {
-    alert(" Vui lòng chọn giá trị");
+    alert(" Please select value");
     return;
     // kiểm tra xem đã nhập thông tin vào chưa
   }
@@ -38,7 +38,7 @@ function calculateTip() {
 
   //Hiển thị vùng div tiền tip
   getEle("totalTip").style.display = "block";
-  getEle("tip").innerHTML = tongTip;
+  getEle("tips").innerHTML = tongTip;
 }
 
 //Hiển thị vùng div tiền tip

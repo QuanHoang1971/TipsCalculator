@@ -107,7 +107,7 @@ button:active {
 }
 
 #totalTip:before {
-  content: "Tiền tip";
+  content: "Tips";
   font-size: 20px;
   font-weight: bold;
   display: block;
